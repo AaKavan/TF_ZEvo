@@ -16,7 +16,7 @@ import jax.numpy as jnp
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, 'data')
 TREE_FILE = os.path.join(DATA, 'tree.npy')
-SCALES_FILE = os.path.join(HERE, 'scales.p')
+SCALES_FILE = os.path.join(DATA, 'scales.p')
 COOLING_FILE = os.path.join(DATA, 'Cooling', 'RadLoss_-0.50_0.00_0.00_1.00e+00.rates')
 
 
